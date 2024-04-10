@@ -4,7 +4,7 @@ import jsonwebtoken from "jsonwebtoken";
 import routes from './src/routes/crmRoutes.js';
 
 const app = express();
-const PORT = 3000;
+const PORT = 3020;
 
 // mongoose connection
 mongoose.Promise = global.Promise;

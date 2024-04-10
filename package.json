@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A toy API project demonstrating how to dockerized the API development.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./insdex.js -exec babel-node"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,10 @@
   },
   "homepage": "https://github.com/jiratbualuang/jirat-containerized-crm#readme",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "express": "^4.19.2",
-    "mongoose": "^8.3.1"
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "nodemon": "^3.1.0"
   }
 }

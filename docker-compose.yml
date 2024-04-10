@@ -3,7 +3,7 @@ services:
   jirat-crm_app:
     build: .
     ports:
-      - "3023:3000"
+      - "3020:3000"
     environment:
       - DB_URL=mongodb://mongo:27017/CRMdb
     depends_on:
