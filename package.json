@@ -1,0 +1,24 @@
+{
+  "name": "jirat-containerized-crm",
+  "version": "1.0.0",
+  "description": "A toy API project demonstrating how to dockerized the API development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiratbualuang/jirat-containerized-crm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiratbualuang/jirat-containerized-crm/issues"
+  },
+  "homepage": "https://github.com/jiratbualuang/jirat-containerized-crm#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  }
+}
